@@ -783,199 +783,249 @@ https://github.com/falsandtru/spica/blob/master/benchmark/cache.ts
     Memory: 14.61 GB / 15.61 GB
     Container: Yes
 
-'Clock  new x 1,683,996 ops/sec ±2.65% (114 runs sampled)'
+'Clock  new x 1,580,578 ops/sec ±2.36% (120 runs sampled)'
 
-'TClock new x 1,623,784 ops/sec ±1.29% (121 runs sampled)'
+'TClock new x 1,635,917 ops/sec ±1.73% (114 runs sampled)'
 
-'ILRU   new x 17,650 ops/sec ±0.40% (123 runs sampled)'
+'ILRU   new x 17,306 ops/sec ±0.72% (122 runs sampled)'
 
-'LRU    new x 27,006,546 ops/sec ±1.07% (120 runs sampled)'
+'LRU    new x 26,446,766 ops/sec ±1.27% (120 runs sampled)'
 
-'TRC-C  new x 25,708,843 ops/sec ±1.40% (120 runs sampled)'
+'TLRU-C new x 25,447,708 ops/sec ±1.16% (120 runs sampled)'
 
-'TRC-L  new x 26,044,032 ops/sec ±0.97% (119 runs sampled)'
+'TLRU-L new x 25,516,873 ops/sec ±1.15% (120 runs sampled)'
 
-'DWC    new x 9,074,130 ops/sec ±0.36% (123 runs sampled)'
+'DWC    new x 8,852,793 ops/sec ±0.48% (123 runs sampled)'
 
-'Clock  simulation 100 10% x 9,973,215 ops/sec ±0.72% (121 runs sampled)'
+'Clock  simulation 100 10% x 9,916,253 ops/sec ±0.82% (121 runs sampled)'
 
-'TClock simulation 100 10% x 9,306,494 ops/sec ±0.40% (121 runs sampled)'
+'TClock simulation 100 10% x 9,178,812 ops/sec ±0.41% (122 runs sampled)'
 
-'ILRU   simulation 100 10% x 8,491,337 ops/sec ±0.67% (121 runs sampled)'
+'ILRU   simulation 100 10% x 8,795,920 ops/sec ±0.45% (121 runs sampled)'
 
-'LRU    simulation 100 10% x 11,084,888 ops/sec ±0.49% (122 runs sampled)'
+'LRU    simulation 100 10% x 11,042,280 ops/sec ±0.41% (122 runs sampled)'
 
-'TRC-C  simulation 100 10% x 10,813,952 ops/sec ±0.58% (120 runs sampled)'
+'TLRU-C simulation 100 10% x 10,776,622 ops/sec ±0.69% (122 runs sampled)'
 
-'TRC-L  simulation 100 10% x 9,472,220 ops/sec ±0.38% (123 runs sampled)'
+'TLRU-L simulation 100 10% x 9,087,601 ops/sec ±0.55% (122 runs sampled)'
 
-'DWC    simulation 100 10% x 6,579,208 ops/sec ±0.89% (122 runs sampled)'
+'DWC    simulation 100 10% x 5,970,465 ops/sec ±0.31% (122 runs sampled)'
 
-'Clock  simulation 1,000 10% x 10,012,508 ops/sec ±0.34% (123 runs sampled)'
+'Clock  simulation 1,000 10% x 9,957,449 ops/sec ±0.44% (123 runs sampled)'
 
-'TClock simulation 1,000 10% x 9,017,112 ops/sec ±0.98% (121 runs sampled)'
+'TClock simulation 1,000 10% x 9,045,578 ops/sec ±0.87% (122 runs sampled)'
 
-'ILRU   simulation 1,000 10% x 8,135,996 ops/sec ±0.60% (123 runs sampled)'
+'ILRU   simulation 1,000 10% x 8,120,270 ops/sec ±0.40% (123 runs sampled)'
 
-'LRU    simulation 1,000 10% x 10,060,729 ops/sec ±0.85% (122 runs sampled)'
+'LRU    simulation 1,000 10% x 10,033,399 ops/sec ±1.03% (121 runs sampled)'
 
-'TRC-C  simulation 1,000 10% x 10,114,139 ops/sec ±0.47% (123 runs sampled)'
+'TLRU-C simulation 1,000 10% x 10,012,036 ops/sec ±0.48% (123 runs sampled)'
 
-'TRC-L  simulation 1,000 10% x 8,750,199 ops/sec ±0.49% (122 runs sampled)'
+'TLRU-L simulation 1,000 10% x 8,728,394 ops/sec ±0.53% (123 runs sampled)'
 
-'DWC    simulation 1,000 10% x 6,816,216 ops/sec ±0.43% (123 runs sampled)'
+'DWC    simulation 1,000 10% x 6,824,871 ops/sec ±0.44% (121 runs sampled)'
 
-'Clock  simulation 10,000 10% x 9,030,910 ops/sec ±0.59% (122 runs sampled)'
+'Clock  simulation 10,000 10% x 8,950,040 ops/sec ±0.68% (122 runs sampled)'
 
-'TClock simulation 10,000 10% x 8,200,692 ops/sec ±0.42% (122 runs sampled)'
+'TClock simulation 10,000 10% x 8,184,728 ops/sec ±0.36% (123 runs sampled)'
 
-'ILRU   simulation 10,000 10% x 6,865,735 ops/sec ±0.39% (121 runs sampled)'
+'ILRU   simulation 10,000 10% x 6,836,598 ops/sec ±0.35% (121 runs sampled)'
 
-'LRU    simulation 10,000 10% x 8,319,914 ops/sec ±0.55% (123 runs sampled)'
+'LRU    simulation 10,000 10% x 8,375,776 ops/sec ±0.40% (121 runs sampled)'
 
-'TRC-C  simulation 10,000 10% x 8,023,198 ops/sec ±0.80% (121 runs sampled)'
+'TLRU-C simulation 10,000 10% x 8,056,049 ops/sec ±0.87% (120 runs sampled)'
 
-'TRC-L  simulation 10,000 10% x 7,048,960 ops/sec ±0.42% (118 runs sampled)'
+'TLRU-L simulation 10,000 10% x 7,152,724 ops/sec ±0.30% (123 runs sampled)'
 
-'DWC    simulation 10,000 10% x 5,776,355 ops/sec ±0.76% (121 runs sampled)'
+'DWC    simulation 10,000 10% x 5,707,307 ops/sec ±0.40% (122 runs sampled)'
 
-'Clock  simulation 100,000 10% x 6,034,976 ops/sec ±1.51% (119 runs sampled)'
+'Clock  simulation 100,000 10% x 6,066,442 ops/sec ±1.54% (120 runs sampled)'
 
-'TClock simulation 100,000 10% x 5,910,633 ops/sec ±1.52% (119 runs sampled)'
+'TClock simulation 100,000 10% x 5,931,329 ops/sec ±1.52% (118 runs sampled)'
 
-'ILRU   simulation 100,000 10% x 3,968,427 ops/sec ±1.16% (118 runs sampled)'
+'ILRU   simulation 100,000 10% x 3,989,516 ops/sec ±1.24% (117 runs sampled)'
 
-'LRU    simulation 100,000 10% x 5,740,236 ops/sec ±2.04% (118 runs sampled)'
+'LRU    simulation 100,000 10% x 5,775,982 ops/sec ±1.73% (119 runs sampled)'
 
-'TRC-C  simulation 100,000 10% x 6,097,797 ops/sec ±2.18% (117 runs sampled)'
+'TLRU-C simulation 100,000 10% x 6,121,879 ops/sec ±2.03% (117 runs sampled)'
 
-'TRC-L  simulation 100,000 10% x 5,402,881 ops/sec ±2.20% (116 runs sampled)'
+'TLRU-L simulation 100,000 10% x 5,372,740 ops/sec ±2.16% (117 runs sampled)'
 
-'DWC    simulation 100,000 10% x 4,717,964 ops/sec ±1.70% (114 runs sampled)'
+'DWC    simulation 100,000 10% x 4,371,865 ops/sec ±1.97% (114 runs sampled)'
 
-'Clock  simulation 1,000,000 10% x 3,035,275 ops/sec ±3.24% (108 runs sampled)'
+'Clock  simulation 1,000,000 10% x 2,921,542 ops/sec ±2.82% (107 runs sampled)'
 
-'TClock simulation 1,000,000 10% x 2,902,998 ops/sec ±2.79% (108 runs sampled)'
+'TClock simulation 1,000,000 10% x 2,734,509 ops/sec ±4.05% (102 runs sampled)'
 
-'ILRU   simulation 1,000,000 10% x 1,784,177 ops/sec ±3.29% (110 runs sampled)'
+'ILRU   simulation 1,000,000 10% x 1,702,357 ops/sec ±2.64% (108 runs sampled)'
 
-'LRU    simulation 1,000,000 10% x 2,352,769 ops/sec ±3.66% (105 runs sampled)'
+'LRU    simulation 1,000,000 10% x 2,404,423 ops/sec ±3.55% (107 runs sampled)'
 
-'TRC-C  simulation 1,000,000 10% x 2,368,202 ops/sec ±4.04% (105 runs sampled)'
+'TLRU-C simulation 1,000,000 10% x 2,509,557 ops/sec ±3.64% (106 runs sampled)'
 
-'TRC-L  simulation 1,000,000 10% x 2,278,346 ops/sec ±4.17% (103 runs sampled)'
+'TLRU-L simulation 1,000,000 10% x 2,400,923 ops/sec ±3.88% (103 runs sampled)'
 
-'DWC    simulation 1,000,000 10% x 3,248,490 ops/sec ±3.21% (103 runs sampled)'
+'DWC    simulation 1,000,000 10% x 3,086,653 ops/sec ±3.95% (107 runs sampled)'
 
-'Clock  simulation 100 50% x 11,565,741 ops/sec ±0.53% (122 runs sampled)'
+'Clock  simulation 100 50% x 11,638,221 ops/sec ±0.44% (123 runs sampled)'
 
-'TClock  simulation 100 50% x 10,939,492 ops/sec ±0.65% (122 runs sampled)'
+'TClock simulation 100 50% x 10,645,049 ops/sec ±0.69% (123 runs sampled)'
 
-'ILRU   simulation 100 50% x 10,913,063 ops/sec ±0.43% (122 runs sampled)'
+'ILRU   simulation 100 50% x 10,786,602 ops/sec ±0.47% (122 runs sampled)'
 
-'LRU    simulation 100 50% x 12,494,543 ops/sec ±0.66% (121 runs sampled)'
+'LRU    simulation 100 50% x 12,558,754 ops/sec ±0.62% (121 runs sampled)'
 
-'TRC-C  simulation 100 50% x 12,684,234 ops/sec ±0.51% (122 runs sampled)'
+'TLRU-C simulation 100 50% x 12,613,469 ops/sec ±0.48% (122 runs sampled)'
 
-'TRC-L  simulation 100 50% x 10,618,588 ops/sec ±0.85% (118 runs sampled)'
+'TLRU-L simulation 100 50% x 10,785,803 ops/sec ±0.45% (122 runs sampled)'
 
-'DWC    simulation 100 50% x 6,617,202 ops/sec ±0.42% (122 runs sampled)'
+'DWC    simulation 100 50% x 6,507,728 ops/sec ±0.43% (123 runs sampled)'
 
-'Clock  simulation 1,000 50% x 11,378,617 ops/sec ±0.48% (123 runs sampled)'
+'Clock  simulation 1,000 50% x 11,225,959 ops/sec ±0.41% (122 runs sampled)'
 
-'TClock  simulation 1,000 50% x 10,592,045 ops/sec ±0.57% (123 runs sampled)'
+'TClock simulation 1,000 50% x 10,633,288 ops/sec ±0.51% (123 runs sampled)'
 
-'ILRU   simulation 1,000 50% x 9,790,349 ops/sec ±0.62% (121 runs sampled)'
+'ILRU   simulation 1,000 50% x 9,807,774 ops/sec ±0.83% (122 runs sampled)'
 
-'LRU    simulation 1,000 50% x 11,406,934 ops/sec ±0.74% (122 runs sampled)'
+'LRU    simulation 1,000 50% x 11,547,226 ops/sec ±0.47% (122 runs sampled)'
 
-'TRC-C  simulation 1,000 50% x 11,535,119 ops/sec ±0.97% (121 runs sampled)'
+'TLRU-C simulation 1,000 50% x 11,500,223 ops/sec ±0.69% (121 runs sampled)'
 
-'TRC-L  simulation 1,000 50% x 10,150,029 ops/sec ±0.47% (123 runs sampled)'
+'TLRU-L simulation 1,000 50% x 10,370,843 ops/sec ±0.40% (123 runs sampled)'
 
-'DWC    simulation 1,000 50% x 6,031,333 ops/sec ±0.51% (123 runs sampled)'
+'DWC    simulation 1,000 50% x 5,861,780 ops/sec ±0.37% (123 runs sampled)'
 
-'Clock  simulation 10,000 50% x 10,079,168 ops/sec ±0.38% (122 runs sampled)'
+'Clock  simulation 10,000 50% x 10,005,777 ops/sec ±0.58% (122 runs sampled)'
 
-'TClock  simulation 10,000 50% x 9,337,784 ops/sec ±0.42% (123 runs sampled)'
+'TClock simulation 10,000 50% x 9,164,085 ops/sec ±0.44% (122 runs sampled)'
 
-'ILRU   simulation 10,000 50% x 8,139,843 ops/sec ±0.49% (122 runs sampled)'
+'ILRU   simulation 10,000 50% x 8,145,309 ops/sec ±0.44% (121 runs sampled)'
 
-'LRU    simulation 10,000 50% x 8,954,125 ops/sec ±0.82% (122 runs sampled)'
+'LRU    simulation 10,000 50% x 8,836,874 ops/sec ±0.51% (120 runs sampled)'
 
-'TRC-C  simulation 10,000 50% x 8,673,994 ops/sec ±0.62% (122 runs sampled)'
+'TLRU-C simulation 10,000 50% x 8,739,594 ops/sec ±0.53% (122 runs sampled)'
 
-'TRC-L  simulation 10,000 50% x 7,729,524 ops/sec ±0.35% (121 runs sampled)'
+'TLRU-L simulation 10,000 50% x 7,752,474 ops/sec ±0.44% (121 runs sampled)'
 
-'DWC    simulation 10,000 50% x 4,882,074 ops/sec ±0.51% (123 runs sampled)'
+'DWC    simulation 10,000 50% x 4,774,496 ops/sec ±0.49% (120 runs sampled)'
 
-'Clock  simulation 100,000 50% x 6,902,816 ops/sec ±1.45% (120 runs sampled)'
+'Clock  simulation 100,000 50% x 6,886,961 ops/sec ±1.39% (118 runs sampled)'
 
-'TClock  simulation 100,000 50% x 6,715,606 ops/sec ±1.37% (118 runs sampled)'
+'TClock simulation 100,000 50% x 6,671,489 ops/sec ±1.43% (118 runs sampled)'
 
-'DWC    simulation 1,000 90% x 8,202,744 ops/sec ±0.46% (122 runs sampled)'
+'ILRU   simulation 100,000 50% x 4,727,141 ops/sec ±1.40% (117 runs sampled)'
 
-'Clock  simulation 10,000 90% x 14,468,858 ops/sec ±0.83% (122 runs sampled)'
+'LRU    simulation 100,000 50% x 6,267,110 ops/sec ±2.01% (117 runs sampled)'
 
-'TClock simulation 10,000 90% x 14,764,606 ops/sec ±0.62% (122 runs sampled)'
+'TLRU-C simulation 100,000 50% x 6,497,513 ops/sec ±1.95% (118 runs sampled)'
 
-'ILRU   simulation 10,000 90% x 12,305,170 ops/sec ±0.50% (122 runs sampled)'
+'TLRU-L simulation 100,000 50% x 5,929,699 ops/sec ±2.30% (117 runs sampled)'
 
-'LRU    simulation 10,000 90% x 11,077,078 ops/sec ±0.77% (120 runs sampled)'
+'DWC    simulation 100,000 50% x 4,007,906 ops/sec ±1.48% (110 runs sampled)'
 
-'TRC-C  simulation 10,000 90% x 10,668,614 ops/sec ±0.84% (121 runs sampled)'
+'Clock  simulation 1,000,000 50% x 3,388,591 ops/sec ±3.09% (105 runs sampled)'
 
-'TRC-L  simulation 10,000 90% x 9,944,090 ops/sec ±1.01% (121 runs sampled)'
+'TClock simulation 1,000,000 50% x 3,030,444 ops/sec ±3.52% (103 runs sampled)'
 
-'DWC    simulation 10,000 90% x 7,163,200 ops/sec ±0.38% (121 runs sampled)'
+'ILRU   simulation 1,000,000 50% x 1,957,735 ops/sec ±3.24% (106 runs sampled)'
 
-'Clock  simulation 100,000 90% x 9,444,252 ops/sec ±1.18% (119 runs sampled)'
+'LRU    simulation 1,000,000 50% x 2,378,468 ops/sec ±3.26% (107 runs sampled)'
 
-'TClock simulation 100,000 90% x 9,340,382 ops/sec ±1.57% (115 runs sampled)'
+'TLRU-C simulation 1,000,000 50% x 2,319,526 ops/sec ±3.01% (110 runs sampled)'
 
-'ILRU   simulation 100,000 90% x 6,831,282 ops/sec ±1.01% (117 runs sampled)'
+'TLRU-L simulation 1,000,000 50% x 2,326,281 ops/sec ±2.40% (107 runs sampled)'
 
-'LRU    simulation 100,000 90% x 7,167,420 ops/sec ±2.21% (116 runs sampled)'
+'DWC    simulation 1,000,000 50% x 1,873,066 ops/sec ±3.42% (101 runs sampled)'
 
-'TRC-C  simulation 100,000 90% x 7,036,587 ops/sec ±2.37% (112 runs sampled)'
+'Clock  simulation 100 90% x 17,142,365 ops/sec ±0.70% (122 runs sampled)'
 
-'TRC-L  simulation 100,000 90% x 7,205,905 ops/sec ±1.84% (115 runs sampled)'
+'TClock simulation 100 90% x 17,515,002 ops/sec ±0.92% (120 runs sampled)'
 
-'DWC    simulation 100,000 90% x 5,356,432 ops/sec ±2.30% (110 runs sampled)'
+'ILRU   simulation 100 90% x 16,941,103 ops/sec ±0.74% (121 runs sampled)'
 
-'Clock  simulation 1,000,000 90% x 3,998,645 ops/sec ±5.72% (102 runs sampled)'
+'LRU    simulation 100 90% x 16,965,079 ops/sec ±0.89% (120 runs sampled)'
 
-'TClock simulation 1,000,000 90% x 4,587,292 ops/sec ±3.63% (103 runs sampled)'
+'TLRU-C simulation 100 90% x 16,764,673 ops/sec ±0.80% (119 runs sampled)'
 
-'ILRU   simulation 1,000,000 90% x 2,606,620 ops/sec ±3.00% (104 runs sampled)'
+'TLRU-L simulation 100 90% x 15,833,669 ops/sec ±0.67% (122 runs sampled)'
 
-'LRU    simulation 1,000,000 90% x 1,998,306 ops/sec ±2.93% (110 runs sampled)'
+'DWC    simulation 100 90% x 8,241,562 ops/sec ±0.33% (122 runs sampled)'
 
-'TRC-C  simulation 1,000,000 90% x 1,976,706 ops/sec ±3.07% (108 runs sampled)'
+'Clock  simulation 1,000 90% x 16,186,628 ops/sec ±0.92% (122 runs sampled)'
 
-'TRC-L  simulation 1,000,000 90% x 1,765,420 ops/sec ±2.78% (97 runs sampled)'
+'TClock simulation 1,000 90% x 16,620,457 ops/sec ±0.68% (122 runs sampled)'
 
-'DWC    simulation 1,000,000 90% x 1,450,290 ops/sec ±1.85% (113 runs sampled)'
+'ILRU   simulation 1,000 90% x 14,897,888 ops/sec ±0.62% (122 runs sampled)'
 
-'ILRU   simulation 100 90% expire x 4,726,192 ops/sec ±2.32% (119 runs sampled)'
+'LRU    simulation 1,000 90% x 15,072,880 ops/sec ±0.62% (122 runs sampled)'
 
-'DWC    simulation 100 90% expire x 7,449,539 ops/sec ±0.50% (120 runs sampled)'
+'TLRU-C simulation 1,000 90% x 14,802,277 ops/sec ±1.06% (120 runs sampled)'
 
-'ILRU   simulation 1,000 90% expire x 4,509,416 ops/sec ±2.03% (120 runs sampled)'
+'TLRU-L simulation 1,000 90% x 14,243,896 ops/sec ±0.60% (122 runs sampled)'
 
-'DWC    simulation 1,000 90% expire x 7,300,006 ops/sec ±0.37% (120 runs sampled)'
+'DWC    simulation 1,000 90% x 7,878,478 ops/sec ±0.55% (123 runs sampled)'
 
-'ILRU   simulation 10,000 90% expire x 3,760,315 ops/sec ±2.29% (115 runs sampled)'
+'Clock  simulation 10,000 90% x 14,397,140 ops/sec ±0.96% (122 runs sampled)'
 
-'DWC    simulation 10,000 90% expire x 5,322,324 ops/sec ±1.05% (119 runs sampled)'
+'TClock simulation 10,000 90% x 14,674,408 ops/sec ±0.76% (122 runs sampled)'
 
-'ILRU   simulation 100,000 90% expire x 2,896,400 ops/sec ±2.23% (112 runs sampled)'
+'ILRU   simulation 10,000 90% x 12,163,240 ops/sec ±0.56% (122 runs sampled)'
 
-'DWC    simulation 100,000 90% expire x 2,881,872 ops/sec ±3.40% (101 runs sampled)'
+'LRU    simulation 10,000 90% x 11,176,342 ops/sec ±1.02% (121 runs sampled)'
 
-'ILRU   simulation 1,000,000 90% expire x 1,375,114 ops/sec ±1.80% (109 runs sampled)'
+'TLRU-C simulation 10,000 90% x 10,623,051 ops/sec ±0.62% (120 runs sampled)'
 
-'DWC    simulation 1,000,000 90% expire x 1,472,821 ops/sec ±1.51% (111 runs sampled)'
+'TLRU-L simulation 10,000 90% x 10,157,939 ops/sec ±0.90% (122 runs sampled)'
+
+'DWC    simulation 10,000 90% x 7,044,033 ops/sec ±0.74% (122 runs sampled)'
+
+'Clock  simulation 100,000 90% x 9,289,594 ops/sec ±1.22% (117 runs sampled)'
+
+'TClock simulation 100,000 90% x 9,424,672 ops/sec ±1.28% (117 runs sampled)'
+
+'ILRU   simulation 100,000 90% x 7,244,655 ops/sec ±0.98% (117 runs sampled)'
+
+'LRU    simulation 100,000 90% x 7,412,012 ops/sec ±2.06% (115 runs sampled)'
+
+'TLRU-C simulation 100,000 90% x 7,348,881 ops/sec ±2.79% (113 runs sampled)'
+
+'TLRU-L simulation 100,000 90% x 7,138,284 ops/sec ±1.86% (113 runs sampled)'
+
+'DWC    simulation 100,000 90% x 5,590,257 ops/sec ±1.48% (116 runs sampled)'
+
+'Clock  simulation 1,000,000 90% x 5,098,637 ops/sec ±3.30% (103 runs sampled)'
+
+'TClock simulation 1,000,000 90% x 4,743,456 ops/sec ±3.51% (103 runs sampled)'
+
+'ILRU   simulation 1,000,000 90% x 3,168,501 ops/sec ±2.45% (111 runs sampled)'
+
+'LRU    simulation 1,000,000 90% x 2,594,390 ops/sec ±3.09% (112 runs sampled)'
+
+'TLRU-C simulation 1,000,000 90% x 2,546,277 ops/sec ±2.43% (109 runs sampled)'
+
+'TLRU-L simulation 1,000,000 90% x 2,478,672 ops/sec ±2.63% (111 runs sampled)'
+
+'DWC    simulation 1,000,000 90% x 2,154,161 ops/sec ±1.80% (114 runs sampled)'
+
+'ILRU   simulation 100 90% expire x 4,875,225 ops/sec ±2.21% (119 runs sampled)'
+
+'DWC    simulation 100 90% expire x 7,322,013 ops/sec ±0.68% (120 runs sampled)'
+
+'ILRU   simulation 1,000 90% expire x 4,600,040 ops/sec ±2.52% (118 runs sampled)'
+
+'DWC    simulation 1,000 90% expire x 7,126,746 ops/sec ±0.67% (122 runs sampled)'
+
+'ILRU   simulation 10,000 90% expire x 3,992,238 ops/sec ±2.12% (119 runs sampled)'
+
+'DWC    simulation 10,000 90% expire x 5,431,828 ops/sec ±0.87% (120 runs sampled)'
+
+'ILRU   simulation 100,000 90% expire x 3,132,253 ops/sec ±2.06% (114 runs sampled)'
+
+'DWC    simulation 100,000 90% expire x 2,914,127 ops/sec ±2.99% (100 runs sampled)'
+
+'ILRU   simulation 1,000,000 90% expire x 1,361,462 ops/sec ±1.48% (114 runs sampled)'
+
+'DWC    simulation 1,000,000 90% expire x 1,349,727 ops/sec ±2.02% (111 runs sampled)'
 ```
 
 ## API
